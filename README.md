@@ -108,4 +108,4 @@ INNER JOIN customer AS cust ON cust.customer_id = r.customer_id;
 END; 
 $BODY$ 
 
---This report would be best to use daily to ensure that the customer rewards are always accurate and up to date.--
+--Run daily to ensure that the customer rewards are always accurate and up to date.--
